@@ -1032,8 +1032,8 @@ install() {
 	[[ $caddy ]] && install_caddy
 
 	## bbr
-	_load bbr.sh
-	_try_enable_bbr
+	## _load bbr.sh
+	## _try_enable_bbr
 
 	get_ip
 	config
